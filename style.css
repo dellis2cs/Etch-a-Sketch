@@ -61,7 +61,8 @@ input {
 
 .redColor,
 .greenColor,
-.blueColor {
+.blueColor,
+.rainbow {
   border-radius: 15px;
   box-sizing: border-box;
   color: #ffffff;
@@ -88,4 +89,13 @@ input {
 .colors {
   display: flex;
   gap: 20px;
+}
+
+.rainbow {
+  background: linear-gradient(
+    90deg,
+    rgba(227, 94, 94, 1) 0%,
+    rgba(218, 117, 204, 1) 35%,
+    rgba(255, 174, 0, 1) 100%
+  );
 }
